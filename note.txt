@@ -1,0 +1,4 @@
+Types of Routes
+- Simple
+- Default
+- Resourceful
