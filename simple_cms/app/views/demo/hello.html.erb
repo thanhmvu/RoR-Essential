@@ -1,0 +1,28 @@
+<h1>Hello world from hello!</h1>
+
+<%= 1+1 %>
+<br/>
+
+<% tmp = "world" %>
+<%= "the value of variable tmp is #{tmp}" %>
+
+<br/>
+<%= 3.times do |n|
+	puts n
+end%>
+
+<br/>
+<br/>
+<% @array.each do |n| %>
+	<%= n %> <br/>
+<% end %>
+
+<br/>
+<%= link_to('Index', {:controller => 'demo',:action=> 'index'}) %><br>
+
+<br>
+
+ID: <%= @id %> <br>
+ID: <%= params[:id]%><br>
+Page: <%= @page %><br>
+Next Page: <%= @page.to_i + 1 %><br>

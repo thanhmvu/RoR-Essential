@@ -2,3 +2,11 @@ Types of Routes
 - Simple
 - Default
 - Resourceful
+
+Render is usually used in conjunction with if-else statement. Keep in mind the default behavior of render and how to override it
+
+Adding a new action to a Controller: also add it to routes.rb
+
+variable vs @instance_variable
+
+be careful with <% %> and <%= %>
