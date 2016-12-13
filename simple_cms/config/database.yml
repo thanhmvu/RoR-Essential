@@ -13,8 +13,8 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: vut_mac
-  password: vut_mac
+  username: vut
+  password: vut
   socket: /tmp/mysql.sock
 
 development:
